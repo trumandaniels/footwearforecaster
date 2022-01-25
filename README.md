@@ -13,6 +13,9 @@ Using Spark for a task like this <b>is overkill</b> because the size of the data
 
 Unlike many other examples of Spark being used for analysis, I have intentionally NOT converted to a Pandas dataframe—so all the concepts, algorithms, and analysis can be scaled to a larger database with ease.
 
+You can find the hosted notebook here: https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/5379433019465152/194281337381761/5498857450185350/latest.html
+
 ### To do:
-#### 1. Implement pyspark's Pipeline 
-#### 2. Code SVD for PySpark DataFrame API (based on PCA)
+#### 1. Include predictive functionality
+#### 2. Implement pyspark's Pipeline 
+#### 3. Code SVD for PySpark DataFrame API (based on PCA)
